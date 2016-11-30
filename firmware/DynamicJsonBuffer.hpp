@@ -7,7 +7,7 @@
 
 #pragma once
 
-#include "Internals/BlockJsonBuffer.hpp"
+#include "BlockJsonBuffer.hpp"
 
 namespace ArduinoJson {
 // Implements a JsonBuffer with dynamic memory allocation.

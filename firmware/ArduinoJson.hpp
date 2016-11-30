@@ -7,16 +7,16 @@
 
 #pragma once
 
-#include "ArduinoJson/DynamicJsonBuffer.hpp"
-#include "ArduinoJson/JsonArray.hpp"
-#include "ArduinoJson/JsonObject.hpp"
-#include "ArduinoJson/StaticJsonBuffer.hpp"
+#include "DynamicJsonBuffer.hpp"
+#include "JsonArray.hpp"
+#include "JsonObject.hpp"
+#include "StaticJsonBuffer.hpp"
 
-#include "ArduinoJson/Internals/JsonParser.ipp"
-#include "ArduinoJson/Internals/JsonSerializer.ipp"
-#include "ArduinoJson/JsonArray.ipp"
-#include "ArduinoJson/JsonBuffer.ipp"
-#include "ArduinoJson/JsonObject.ipp"
-#include "ArduinoJson/JsonVariant.ipp"
+#include "JsonParser.ipp"
+#include "JsonSerializer.ipp"
+#include "JsonArray.ipp"
+#include "JsonBuffer.ipp"
+#include "JsonObject.ipp"
+#include "JsonVariant.ipp"
 
 using namespace ArduinoJson;
