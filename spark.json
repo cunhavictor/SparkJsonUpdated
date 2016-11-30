@@ -1,0 +1,7 @@
+{
+    "name": "SparkJson-updated",
+    "version": "5.7.2",
+    "author": "bblanchon",
+    "license": "MIT",
+    "description": "JSON library Ported from @bblanchon"
+}
