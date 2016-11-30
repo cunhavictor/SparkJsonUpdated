@@ -7,7 +7,7 @@
 
 #pragma once
 
-#include "Internals/JsonParser.hpp"
+#include "JsonParser.hpp"
 
 inline ArduinoJson::JsonArray &ArduinoJson::JsonBuffer::createArray() {
   JsonArray *ptr = new (this) JsonArray(this);

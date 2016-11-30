@@ -9,8 +9,8 @@
 
 #include "Configuration.hpp"
 #include "JsonVariantBase.hpp"
-#include "TypeTraits/ConstRefOrConstPtr.hpp"
-#include "TypeTraits/EnableIf.hpp"
+#include "ConstRefOrConstPtr.hpp"
+#include "EnableIf.hpp"
 
 #ifdef _MSC_VER
 #pragma warning(push)

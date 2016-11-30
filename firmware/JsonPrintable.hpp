@@ -7,8 +7,8 @@
 
 #pragma once
 
-#include "../Configuration.hpp"
-#include "../TypeTraits/EnableIf.hpp"
+#include "Configuration.hpp"
+#include "EnableIf.hpp"
 #include "DummyPrint.hpp"
 #include "DynamicStringBuilder.hpp"
 #include "IndentedPrint.hpp"

@@ -7,10 +7,10 @@
 
 #pragma once
 
-#include "../Polyfills/attributes.hpp"
-#include "../Polyfills/math.hpp"
-#include "../Polyfills/normalize.hpp"
-#include "../Print.hpp"
+#include "attributes.hpp"
+#include "math.hpp"
+#include "normalize.hpp"
+#include "Print.hpp"
 #include "Encoding.hpp"
 #include "JsonFloat.hpp"
 #include "JsonInteger.hpp"

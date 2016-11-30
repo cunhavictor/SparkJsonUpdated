@@ -7,7 +7,7 @@
 
 #pragma once
 
-#include "./Print.hpp"
+#include "Print.hpp"
 #include "StringFuncs.hpp"
 
 namespace ArduinoJson {

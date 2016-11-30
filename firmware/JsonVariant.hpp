@@ -10,20 +10,20 @@
 #include <stddef.h>
 #include <stdint.h>  // for uint8_t
 
-#include "Internals/JsonPrintable.hpp"
-#include "Internals/JsonVariantContent.hpp"
-#include "Internals/JsonVariantDefault.hpp"
-#include "Internals/JsonVariantType.hpp"
+#include "JsonPrintable.hpp"
+#include "JsonVariantContent.hpp"
+#include "JsonVariantDefault.hpp"
+#include "JsonVariantType.hpp"
 #include "JsonVariantBase.hpp"
 #include "RawJson.hpp"
-#include "TypeTraits/EnableIf.hpp"
-#include "TypeTraits/IsFloatingPoint.hpp"
-#include "TypeTraits/IsIntegral.hpp"
-#include "TypeTraits/IsSame.hpp"
-#include "TypeTraits/IsSignedIntegral.hpp"
-#include "TypeTraits/IsUnsignedIntegral.hpp"
-#include "TypeTraits/RemoveConst.hpp"
-#include "TypeTraits/RemoveReference.hpp"
+#include "EnableIf.hpp"
+#include "IsFloatingPoint.hpp"
+#include "IsIntegral.hpp"
+#include "IsSame.hpp"
+#include "IsSignedIntegral.hpp"
+#include "IsUnsignedIntegral.hpp"
+#include "RemoveConst.hpp"
+#include "RemoveReference.hpp"
 
 namespace ArduinoJson {
 

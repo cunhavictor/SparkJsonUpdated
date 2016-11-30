@@ -7,17 +7,17 @@
 
 #pragma once
 
-#include "Internals/JsonBufferAllocated.hpp"
-#include "Internals/JsonPrintable.hpp"
-#include "Internals/List.hpp"
-#include "Internals/ReferenceType.hpp"
-#include "Internals/StringFuncs.hpp"
-#include "Internals/ValueSetter.hpp"
+#include "JsonBufferAllocated.hpp"
+#include "JsonPrintable.hpp"
+#include "List.hpp"
+#include "ReferenceType.hpp"
+#include "StringFuncs.hpp"
+#include "ValueSetter.hpp"
 #include "JsonPair.hpp"
-#include "TypeTraits/ConstRefOrConstPtr.hpp"
-#include "TypeTraits/EnableIf.hpp"
-#include "TypeTraits/IsFloatingPoint.hpp"
-#include "TypeTraits/IsSame.hpp"
+#include "ConstRefOrConstPtr.hpp"
+#include "EnableIf.hpp"
+#include "IsFloatingPoint.hpp"
+#include "IsSame.hpp"
 
 // Returns the size (in bytes) of an object with n elements.
 // Can be very handy to determine the size of a StaticJsonBuffer.

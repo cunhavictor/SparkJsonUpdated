@@ -7,7 +7,7 @@
 
 #pragma once
 
-#include "../Configuration.hpp"
+#include "Configuration.hpp"
 
 #if ARDUINOJSON_ENABLE_ARDUINO_STRING
 #include <WString.h>

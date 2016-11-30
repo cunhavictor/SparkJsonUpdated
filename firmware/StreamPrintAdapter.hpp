@@ -7,11 +7,11 @@
 
 #pragma once
 
-#include "../Configuration.hpp"
+#include "Configuration.hpp"
 
 #if ARDUINOJSON_ENABLE_STD_STREAM
 
-#include "../Print.hpp"
+#include "Print.hpp"
 
 #include <ostream>
 

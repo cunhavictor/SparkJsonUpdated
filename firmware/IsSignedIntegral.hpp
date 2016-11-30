@@ -7,7 +7,7 @@
 
 #pragma once
 
-#include "./Configuration.hpp"
+#include "Configuration.hpp"
 #include "IsSame.hpp"
 
 namespace ArduinoJson {

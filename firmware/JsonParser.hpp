@@ -1,3 +1,4 @@
+
 // Copyright Benoit Blanchon 2014-2016
 // MIT License
 //
@@ -7,8 +8,8 @@
 
 #pragma once
 
-#include "../JsonBuffer.hpp"
-#include "../JsonVariant.hpp"
+#include "JsonBuffer.hpp"
+#include "JsonVariant.hpp"
 
 namespace ArduinoJson {
 namespace Internals {
